@@ -31,7 +31,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					"/Users/sathya/Desktop/PageObjectModel1-master/src/main/java/com/fli/qa/config/config.properties");
+					"/Users/sathya/Desktop/PageObjectModel1/src/main/java/com/fli/qa/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
